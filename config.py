@@ -5,7 +5,7 @@ from platformdirs import user_data_dir
 
 from info import *
 
-config_folder = user_data_dir(appname, appauthor)
+config_folder = user_data_dir(appname.replace(' ', '_'), appauthor)
 config_filename = path.join(config_folder, 'setting.yaml')
 
 def read_config(url:ttk.StringVar, saveFolder:ttk.StringVar):

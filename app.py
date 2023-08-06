@@ -8,11 +8,12 @@ from pathvalidate import is_valid_filepath
 
 from crawler import Crawler
 from config import read_config, write_config
+from info import *
 
 class App(ttk.Frame):
   def __init__(self, master:tk.Tk):
     super().__init__(master)
-    master.title('Novel Crawler')
+    master.title(f'{appname} {version}')
     screen_width = master.winfo_screenwidth()
     screen_height = master.winfo_screenheight()
     master.geometry(f'+{int(0.3*screen_width)}+{int(0.35*screen_height)}')

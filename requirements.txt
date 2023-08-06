@@ -1,0 +1,7 @@
+ttkbootstrap
+beautifulsoup4
+requests
+pathvalidate
+PyYAML
+platformdirs
+pyinstaller

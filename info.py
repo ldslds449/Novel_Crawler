@@ -1,3 +1,3 @@
 appname = 'Novel Crawler'
 appauthor = 'ldslds449'
-version = '1.0.0'
+version = '1.1.0'
